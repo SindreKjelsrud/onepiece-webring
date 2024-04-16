@@ -26,7 +26,3 @@ This webring is tailored for fans of One Piece, aiming to inspire artists & deve
 ### 🖇 Circular Linking
 
 Instead of linking to the directory, you can also link to a random link in the ring by ...
-
-## 📄 Licence
-
-This project is licensed under the [MIT License](./LICENSE).
