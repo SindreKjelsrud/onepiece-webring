@@ -64,7 +64,7 @@ ul, li a{
     font-weight: 600
 }
 li :hover {
-    background-color: #ef4444;
+    background-color: #dc2626;
 }
 #crew-list {
     counter-reset: crew-index;
@@ -74,5 +74,8 @@ li :hover {
 }
 #crew-list > li::before {
     content: counter(crew-index) ". ";
+}
+#crew-list > li:target {
+    background-color: #dc2626;
 }
 </style>
