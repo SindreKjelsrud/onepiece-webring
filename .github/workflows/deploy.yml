@@ -1,0 +1,41 @@
+name: Deploy website
+
+on:
+  push:
+    branches: [ main ]
+    paths-ignore:
+      - 'README.md'  # Ignore changes to README.md
+  # Allows you to run this workflow manually from the Actions tab on GitHub.
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '21'
+      
+      - name: Install pnpm
+        run: npm install -g @pnpm/exe
+
+      - name: Install dependencies
+        run: pnpm install 
+
+      - name: Build Nuxt website
+        run: pnpm generate
+
+      - name: Rsync files
+        uses: burnett01/rsync-deployments@5.2
+        with:
+          switches: -avzr --delete
+          path: .output/public/
+          remote_path: /var/www/webring.kjelsrud.dev/
+          remote_host: ${{ secrets.HOST }}
+          remote_user: ${{ secrets.USER }}
+          remote_key: ${{ secrets.KEY }}
+          remote_port: ${{ secrets.PORT }}
