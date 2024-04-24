@@ -1,6 +1,6 @@
 <template>
     <NuxtLayout name="default">
-        <div class="flex flex-col md:gap-4 gap-2 pt-4 pb-10">
+        <div class="flex flex-col md:gap-4 gap-2 pt-4 pb-2 sm:px-6 xl:px-18 px-4">
             <h1 class="pb-2 text-center md:text-6xl text-4xl font-bold text-white">the grand line webring</h1>
             <!-- INTRO -->
             <div>
@@ -13,7 +13,7 @@
             <div>
                 <h2 class="md:text-3xl text-xl font-semibold text-white">How to Join</h2>
                 <p class="text-l font-medium text-white">
-                    To join the Grand Line Webring, <a href="https://github.com/SindreKjelsrud/onepiece-webring" class="px-1 font-bold bg-red-500">submit a pull request</a> to our GitHub repository. Be sure to read the <a href="https://github.com/SindreKjelsrud/onepiece-webring/blob/main/README.md" class="px-1 font-bold bg-red-500">README.md</a> to make sure you've covered all the criterias to join!
+                    To join the Grand Line Webring, <a href="https://github.com/SindreKjelsrud/onepiece-webring" class="px-1 font-bold bg-red-600">submit a pull request</a> to our GitHub repository. Be sure to read the <a href="https://github.com/SindreKjelsrud/onepiece-webring/blob/main/README.md" class="px-1 font-bold bg-red-600">README.md</a> to make sure you've covered all the criterias to join!
                     We'll review your submission as fast as we can, and remember to include the widget on your site for all to see.
                 </p>
             </div>
@@ -21,7 +21,7 @@
             <div>
                 <h2 class="md:text-3xl text-xl font-semibold text-white">Webring Widgets</h2>
                 <p class="text-l font-medium text-white">
-                    You could either use the white or black SVG below (click them to download), or <a href="https://github.com/SindreKjelsrud/onepiece-webring/tree/main/public" class="px-1 font-bold bg-red-500">download it from here</a> and change the color yourself!
+                    You could either use the white or black SVG below (click them to download), or <a href="https://github.com/SindreKjelsrud/onepiece-webring/tree/main/public" class="px-1 font-bold bg-red-600">download it from here</a> and change the color yourself!
                 </p>
             </div>
             <div class="flex justify-between">
@@ -46,32 +46,32 @@
 </template>
 
 <style scoped>
-  .grid-cols {
+.grid-cols {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5rem;
-  }
-  @media only screen and (max-width: 600px) {
+    gap: 3rem;
+}
+@media only screen and (max-width: 600px) {
     .grid-cols {
         display: grid;
-        grid-template-columns: repeat(3, 2fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
     }
-  }
-  ul, li a{
+}
+ul, li a{
     color: white;
     font-weight: 600
-  }
-  li :hover {
+}
+li :hover {
     background-color: #ef4444;
-  }
-  #crew-list {
+}
+#crew-list {
     counter-reset: crew-index;
-  }
-  #crew-list > li {
+}
+#crew-list > li {
     counter-increment: crew-index;
-  }
-  #crew-list > li::before {
+}
+#crew-list > li::before {
     content: counter(crew-index) ". ";
-  }
+}
 </style>
