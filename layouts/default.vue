@@ -1,6 +1,6 @@
 <template>
     <div class="bg-slate-900">
-        <div class="app-background mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-2xl xl:px-18">
+        <div class="app-background mx-auto max-w-3xl xl:max-w-2xl xl:px-18">
             <slot />
         </div>
     </div>
