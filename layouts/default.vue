@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-slate-900">
+    <div class="bg-color">
         <div class="app-background mx-auto max-w-3xl xl:max-w-2xl xl:px-18">
             <slot />
         </div>
@@ -12,5 +12,9 @@
   background-position: center;
   background-attachment: fixed;
   min-height: 100vh;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.8);
+}
+.bg-color {
+    background-color: #3b4f56;
 }
 </style>
