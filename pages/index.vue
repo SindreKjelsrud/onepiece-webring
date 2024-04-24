@@ -42,6 +42,7 @@
                 </ul>
             </div>
         </div>
+        <img src="/nakama.webp" alt="One Piece Nakama"/>
     </NuxtLayout>
 </template>
 
