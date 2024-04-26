@@ -4,7 +4,7 @@
 
 ## 📝 Info
 
-This [webring](webring.kjelsrud.dev) is tailored for fans of One Piece, aiming to inspire artists & developers within the fandom to create and maintain their own personal websites. The primary goal of the webring is to cultivate a sense of community, enabling members to exchange traffic while exhibiting their personally crafted websites, including personal diaries, wikis, and portfolios.
+This [webring](https://webring.kjelsrud.dev) is tailored for fans of One Piece, aiming to inspire artists & developers within the fandom to create and maintain their own personal websites. The primary goal of the webring is to cultivate a sense of community, enabling members to exchange traffic while exhibiting their personally crafted websites, including personal diaries, wikis, and portfolios.
 
 ## 🤝 Join the webring 
 
