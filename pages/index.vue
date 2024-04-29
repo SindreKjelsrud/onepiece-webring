@@ -38,7 +38,7 @@
                     <!-- LIST -->
                     <li data-lang="en" id="sid">
                         <a href="https://kjelsrud.dev">kjelsrud.dev</a>
-                    </li>
+                    </li> 
                 </ul>
             </div>
         </div>
@@ -56,7 +56,7 @@
     .grid-cols {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
+        gap: 0.5rem;
     }
 }
 ul, li a{
