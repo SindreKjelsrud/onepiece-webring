@@ -39,6 +39,9 @@
                     <li data-lang="en" id="sid">
                         <a href="https://kjelsrud.dev">kjelsrud.dev</a>
                     </li> 
+                    <li data-lang="en" id="flt">
+                        <a href="https://foreverliketh.is/">foreverliketh.is</a>
+                    </li> 
                 </ul>
             </div>
         </div>
