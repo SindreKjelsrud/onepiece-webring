@@ -15,7 +15,7 @@ This [webring](https://webring.kjelsrud.dev) is tailored for fans of One Piece, 
 ### ✅ Webring criteria
 
 - Your website must have atleast 5-6 pages and an about page. (Blog posts are not counted as content pages)
-- You must have your own domain name, aka `github.io` subdomains are not accepted.
+- You must use the webring icon, not other gifs representing it etc.
 - Your website will be rejected if one of the following are true:
     - Single page websites, acting as a social media portal.
     - Websites with violent, racist, sexist or speciesist content.
