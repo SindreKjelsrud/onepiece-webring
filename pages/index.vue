@@ -45,6 +45,9 @@
                     <li data-lang="en" id="uar">
                         <a href="https://unholyrotten.neocities.org">unholyrotten</a>
                         </li>
+                    <li data-lang="en" id="bay">
+                        <a href="https://bayazidi.xyz">bayazidi</a>
+                    </li>
                 </ul>
             </div>
         </div>
